@@ -10,8 +10,6 @@ public class LoginPage {
 	WebDriver driver;
 	
 	
-	//E drive Demo
-	// secnd commits
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -28,6 +26,7 @@ public class LoginPage {
 
 	
 	public ProductPage loginApplication(String emailId, String pass) {
+		System.out.println("Login with email: " + emailId + " and password: " + pass);
 		email.sendKeys(emailId);
 		password.sendKeys(pass);
 		loginBtn.click();
