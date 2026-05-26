@@ -10,7 +10,6 @@ public class LoginPage {
 	WebDriver driver;
 	
 	
-	//  D Demo 
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
