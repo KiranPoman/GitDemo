@@ -26,6 +26,8 @@ public class LoginPage {
 
 	
 	public ProductPage loginApplication(String emailId, String pass) {
+		System.out.println("Login with email: " + emailId + " and password: " + pass);
+		System.out.println("Email field WebElement: " + email);
 		email.sendKeys(emailId);
 		password.sendKeys(pass);
 		loginBtn.click();
