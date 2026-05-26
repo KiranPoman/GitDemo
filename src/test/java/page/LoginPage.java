@@ -38,6 +38,7 @@ public class LoginPage {
 		driver.get("https://rahulshettyacademy.com/client/");
 		System.out.println("Navigated to login page");
 		System.out.println("Create New Branch on GitHub");
+		System.out.println("Create New Branch on GitHub and push to new branch");
 		
 	}	
 
