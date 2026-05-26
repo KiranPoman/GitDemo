@@ -26,7 +26,6 @@ public class LoginPage {
 
 	
 	public ProductPage loginApplication(String emailId, String pass) {
-		System.out.println("Login with email: " + emailId + " and password: " + pass);
 		email.sendKeys(emailId);
 		password.sendKeys(pass);
 		loginBtn.click();
@@ -38,6 +37,7 @@ public class LoginPage {
 	public void goTo() {
 		driver.get("https://rahulshettyacademy.com/client/");
 		System.out.println("Navigated to login page");
+		System.out.println("Create New Branch on GitHub");
 		
 	}	
 
