@@ -38,6 +38,8 @@ public class LoginPage {
 		driver.get("https://rahulshettyacademy.com/client/");
 		System.out.println("Create New Branch on GitHub and push to new branch");
 		
+	System.out.println("Create New Branch ");
+		
 	}	
 
 	
