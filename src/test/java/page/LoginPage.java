@@ -39,7 +39,7 @@ public class LoginPage {
 		System.out.println("Create New Branch on GitHub and push to new branch");
 		
 	System.out.println("Create New Branch ");
-	System.out.println("CICDW ");
+	System.out.println("CICD with Jenkins ");
 		
 	}	
 
